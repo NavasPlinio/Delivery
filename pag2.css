@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "cairo", sans-serif;
+    
+    background-color:#F4E983;}
+.separar{
+    display: flex;
+    align-items: center;
+    background-color: #FC6D1D;
+}
+.reader{
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: #FC6D1D;
+}
+#bnt1{
+    border-radius: 50%;
+    background-color: rgb(12, 236, 12);
+    color: aliceblue;
+    width: 250px;
+    height: 90px;
+}
+#sabor{
+    color: black;
+    padding-left: 120px;
+    padding-top: 40px;
+    width: 500px;
+    font-size: 40px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 220px 220px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.pizzas{
+    width: 250px;
+    position: relative;
+    font-size: 50px;
+}
+.tamanho1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 150px 200px;
+    background-color: #FF8717;
+    
+    
+}
+#calabresa{
+    font-size: 30px;
+    background-color: rgb(0, 255, 0);
+    grid-row: 1;
+    grid-column: 2;
+    height: 50px;
+    width: 300px;
+}
+.desc{
+    grid-column: 2;
+    grid-row: 2;
+    height: 70px;
+    background-color: #FF8717;
+    
+}
+#carrinho{
+    
+    background-color: rgb(12, 236, 12);
+    color: aliceblue;
+    width: 400px;
+    height: 90px;
+    font-size: 20px;
+    align-content: flex-end;
+   
+}
+

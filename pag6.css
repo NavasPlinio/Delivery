@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "cairo", sans-serif;
+    
+}
+.separar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 102, 0, 0.911);
+}
+.reader{
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#bnt1{
+    border-radius: 50%;
+    background-color: rgb(12, 236, 12);
+    color: aliceblue;
+    width: 250px;
+    height: 90px;
+}
+#pizza{
+    align-items: end;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#main{
+    display: flex;
+    background-color: rgb(206, 172, 62);
+    height: 750px;
+}
+.confirmar{
+    color: red;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+#bnt2{
+    background-color: rgb(12, 236, 12);
+    width: 250px;
+    height: 90px;
+}
+.tamanho{
+margin-top: 80px;
+margin-left: 400px;
+font-size: 40px;
+}
